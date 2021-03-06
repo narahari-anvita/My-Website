@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+
+#Apps {
+    height: 800px;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+#Games {
+    height: 800px;
+    width: 100%;
+    background-color: deepskyblue;
+}
+
+#Personal_Assistant{
+    height: 800px;
+    width: 100%;
+    background-color: darkorange;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+img{
+ transition: transform .2s;
+}
+img: hover{
+    transform: scale(0.9);
+}
+.line{
+    width: 70px;
+    height: 6px;
+    margin: 8px auto;
+    background-color: bisque;
+}
